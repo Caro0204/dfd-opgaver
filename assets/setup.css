@@ -13,7 +13,6 @@ article {
   max-inline-size: 65ch;
   margin-inline: auto;
   margin-block: 3rem;
-  --flow-space: 5rlh;
 }
 
 :is(h1, h2) {
@@ -22,7 +21,6 @@ article {
 
 h2 {
   font-size: 1.67rem;
-  --flow-space: 1rlh;
 }
 
 h3 {
