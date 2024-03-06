@@ -1,36 +1,38 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 article {
-    line-height: 1.5;
-    font-family: system-ui;
-    max-inline-size: 65ch;
-    margin-inline: auto;
-    margin-block: 3rem;
+  line-height: 1.5;
+  font-family: system-ui;
+  max-inline-size: 65ch;
+  margin-inline: auto;
+  margin-block: 3rem;
+  --flow-space: 5rlh;
 }
 
 :is(h1, h2) {
-    line-height: 1.125;
+  line-height: 1.125;
 }
 
 h2 {
-    font-size: 1.67rem;
+  font-size: 1.67rem;
+  --flow-space: 1rlh;
 }
 
 h3 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 p {
-    color: #334155;
+  color: #334155;
 }
 
 .lead {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
