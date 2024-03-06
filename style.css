@@ -10,6 +10,7 @@ article {
   border-radius: 1rem;
   border: 1px solid #dadceb;
   text-align: left;
+  margin-block-start: var(--flow-space, 1);
 }
 
 .picture {
