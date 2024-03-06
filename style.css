@@ -2,18 +2,18 @@
 @import url("https://fonts.cdnfonts.com/css/abril-fatface");
 
 article {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "lato", sans-serif;
   max-inline-size: 400px;
   background: #fff;
   margin-block: 3rem;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   border-radius: 1rem;
   border: 1px solid #dadceb;
+  text-align: left;
 }
 
 .picture {
   display: grid;
-  padding: 0.5rem;
 
   > * {
     grid-area: 1 / 1;
@@ -32,14 +32,16 @@ article {
     letter-spacing: 2px;
     line-height: 1;
     place-self: end;
-    background: #bdc4ce;
+    background: #787b81;
     color: #fff;
     margin: 1rem;
   }
 
   img {
     border: 1px solid #dadceb;
-    border-radius: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 1), rgba(0, 0, 0, 0)); */
   }
 }
 
@@ -50,25 +52,30 @@ article {
 }
 
 .title {
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: 400;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 200;
   font-size: 2rem;
-  color: #3c55cc;
+  color: black;
 }
 
 .location {
-  color: #c8c9cb;
-  text-transform: uppercase;
+  color: darkgray;
+  text-transform: lowercase;
   font-size: 0.95em;
+  font-weight: normal;
 }
 
 .description p {
-  text-align: center;
+  text-align: left;
+  color: gray;
+  line-height: 1.5;
 }
 
 .amenities-details {
   display: flex;
   gap: 1rem;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 
   li {
     flex: 1;
@@ -104,6 +111,7 @@ footer {
 
   .price {
     font-weight: 600;
+    font-size: 1.2rem;
 
     span {
       color: #908f9f;
